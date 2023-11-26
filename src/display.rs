@@ -60,7 +60,7 @@ impl Display {
     fn reset(&mut self) {
         self.device.init(&mut self.delay).unwrap();
         self.device.set_orientation(&Orientation::Landscape).unwrap();
-        self.device.set_offset(0, 0);
+        self.device.set_offset(1, 2);
         self.device.clear(Bgr565::BLACK).unwrap();
     }
 }
