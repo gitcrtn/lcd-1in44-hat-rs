@@ -13,3 +13,4 @@ rppal = "0.15.0"
 strum = "0.25.0"
 strum_macros = "0.25.2"
 st7735-lcd = { git = "https://github.com/gitcrtn/embedded-lcd-driver-rs", branch = "st7735-rpi", features = ["graphics"] }
+embedded-graphics-framebuf = "0.5.0"
